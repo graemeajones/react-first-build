@@ -14,7 +14,7 @@ function Header() {
         <img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png" alt="Icon showing group"/>
       </Link>
       <Link to={'/'}>
-        <h1>First React Build</h1>
+        <h1>React First Build</h1>
       </Link>
       <div className="login">
         <p>Welcome Graeme!</p>
