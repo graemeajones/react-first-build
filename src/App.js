@@ -8,15 +8,16 @@ import PageNotFound from './components/pages/404.js';
 
 import './App.css';
 
+
 function App() {
   return (
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/signin' element={<SignIn />} />
-          <Route path='/contact' element={<ContactUs />} />
           <Route path='*' element={<PageNotFound />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/signin'  element={<SignIn />} />
+          <Route path='/contact' element={<ContactUs />} />
         </Routes>
       </Layout>
     </BrowserRouter>
