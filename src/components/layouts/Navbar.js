@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 import './Navbar.css';
 
+
 function Navbar() {
   // Properties ----------------------------------
   // Hooks ---------------------------------------

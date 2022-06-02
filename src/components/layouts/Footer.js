@@ -1,5 +1,6 @@
 import './Footer.css';
 
+
 function Footer() {
   // Properties ----------------------------------
   // Hooks ---------------------------------------
